@@ -49,6 +49,28 @@ It's that simple. And when it comes time to scale the application, all you have 
 
 I know right?
 
+### Containerized  
+
+Yes, nocode can be containerized. The image is containerized and hosted in [Quay](quay.io).
+
+To Get the container,
+
+
+```
+
+docker pull quay.io/narendev/nocode
+
+```
+
+To run the container,
+
+```
+
+docker run --rm quay.io/narendev/nocode
+
+```
+
+
 ## Contributing
 
 There isn't any to contribute. So, Please Don't.
